@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "dVuLrD/d63Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LiuDe-Hong\\Documents\\TESTTTT\\UpdateMasterData\\UpdateMasterData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LiuDe-Hong\\.nuget\\packages\\sharpcompress\\0.38.0\\sharpcompress.0.38.0.nupkg.sha512",
+    "C:\\Users\\LiuDe-Hong\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "C:\\Users\\LiuDe-Hong\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Users\\LiuDe-Hong\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512",
+    "C:\\Users\\LiuDe-Hong\\.nuget\\packages\\zstdsharp.port\\0.8.1\\zstdsharp.port.0.8.1.nupkg.sha512",
+    "C:\\Users\\LiuDe-Hong\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\LiuDe-Hong\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\LiuDe-Hong\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\LiuDe-Hong\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "套件 'SharpCompress' 0.38.0 具有已知的 中度 嚴重性弱點，https://github.com/advisories/GHSA-6c8g-7p36-r338。",
+      "projectPath": "C:\\Users\\LiuDe-Hong\\Documents\\TESTTTT\\UpdateMasterData\\UpdateMasterData.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\LiuDe-Hong\\Documents\\TESTTTT\\UpdateMasterData\\UpdateMasterData.csproj",
+      "libraryId": "SharpCompress",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

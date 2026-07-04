@@ -1,0 +1,99 @@
+{
+  "profiles": {
+    "Job_UpdateOrganization": {
+      "commandName": "Project",
+        "environmentVariables": {
+            "PIC_JOB_MODULE_CODE": "Job_UpdateOrganization",
+            "PIC_JOB_MODULE_NAME": "更新組織主檔",
+            "PIC_JOB_VERSION_TYPE": "R",
+            "PIC_JOB_JOB_VERSION": "TODAY",
+            "PIC_JOB_CREATOR": "",
+            "PIC_JOB_CREATOR_IP": "",
+            "PIC_JOB_DATABASE_TYPE": "POSTGRESQL",
+            "PIC_JOB_DATABASE_PREFIX": "PIC_JOB_DATABASE_POSTGRESQL",
+            "PIC_JOB_DATABASE_POSTGRESQL_IS_ENCRYPT": "N",
+            "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq_dev1;Password=L1-}KTx}Eh;Database=sethqattend_dev1;Search Path=sethq",
+            //"PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq_dev2;Password=v=YNR!+g;Database=sethqattend_dev2;Search Path=sethq",
+            "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONTIMEOUT": "2000",
+            "PIC_JOB_RETRY_COUNT": "3",
+            "PIC_JOB_RETRY_DELAY_SEC": "60",
+            "PIC_JOB_SKIP_EMPTY_FILE": "N"
+        }
+    },
+    "Job_UpdateEmployeeDiff": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "PIC_JOB_MODULE_CODE": "Job_UpdateEmployeeDiff",
+        "PIC_JOB_MODULE_NAME": "更新員工異動紀錄",
+        "PIC_JOB_VERSION_TYPE": "R",
+        "PIC_JOB_JOB_VERSION": "TODAY",
+        "PIC_JOB_CREATOR": "",
+        "PIC_JOB_CREATOR_IP": "",
+        "PIC_JOB_DATABASE_TYPE": "POSTGRESQL",
+        "PIC_JOB_DATABASE_PREFIX": "PIC_JOB_DATABASE_POSTGRESQL",
+        "PIC_JOB_DATABASE_POSTGRESQL_IS_ENCRYPT": "N",
+        "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq_dev1;Password=L1-}KTx}Eh;Database=sethqattend_dev1;Search Path=sethq",
+        //"PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq_dev2;Password=v=YNR!+g;Database=sethqattend_dev2;Search Path=sethq",
+        "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONTIMEOUT": "2000",
+        "PIC_JOB_SKIP_EMPTY_FILE": "N"
+      }
+    },
+    "Job_UpdateEmployeeVice": {
+      "commandName": "Project",
+        "environmentVariables": {
+            "PIC_JOB_MODULE_CODE": "Job_UpdateEmployeeVice",
+            "PIC_JOB_MODULE_NAME": "更新員工在職主檔",
+            "PIC_JOB_VERSION_TYPE": "R",
+            "PIC_JOB_JOB_VERSION": "TODAY",
+            "PIC_JOB_CREATOR": "",
+            "PIC_JOB_CREATOR_IP": "",
+            "PIC_JOB_DATABASE_TYPE": "POSTGRESQL",
+            "PIC_JOB_DATABASE_PREFIX": "PIC_JOB_DATABASE_POSTGRESQL",
+            "PIC_JOB_DATABASE_POSTGRESQL_IS_ENCRYPT": "N",
+            "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq;Password=L1-}KTx}Eh;Database=sethqattend_dev1;Search Path=sethq",
+            //"PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq_dev2;Password=v=YNR!+g;Database=sethqattend_dev2;Search Path=sethq",
+            "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONTIMEOUT": "2000",
+            "PIC_JOB_RETRY_COUNT": "3",
+            "PIC_JOB_RETRY_DELAY_SEC": "60",
+            "PIC_JOB_SKIP_EMPTY_FILE": "N"
+        }
+    },
+    "Job_UpdateQuota": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "PIC_JOB_MODULE_CODE": "Job_UpdateQuota",
+        "PIC_JOB_MODULE_NAME": "更新剩餘假主檔",
+        "PIC_JOB_VERSION_TYPE": "R",
+        "PIC_JOB_JOB_VERSION": "20260608",
+        "PIC_JOB_CREATOR": "",
+        "PIC_JOB_CREATOR_IP": "",
+        "PIC_JOB_DATABASE_TYPE": "POSTGRESQL",
+        "PIC_JOB_DATABASE_PREFIX": "PIC_JOB_DATABASE_POSTGRESQL",
+        "PIC_JOB_DATABASE_POSTGRESQL_IS_ENCRYPT": "N",
+        "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq;Password=L1-}KTx}Eh;Database=sethqattend_dev4;Search Path=sethq",
+        //"PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq_dev2;Password=v=YNR!+g;Database=sethqattend_dev2;Search Path=sethq",
+        "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONTIMEOUT": "2000",
+        "PIC_JOB_SKIP_EMPTY_FILE": "Y",
+        "PIC_JOB_LOOP_COUNT": "1"
+      }
+    },
+    "Job_UpdateReporting": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "PIC_JOB_MODULE_CODE": "Job_UpdateReporting",
+        "PIC_JOB_MODULE_NAME": "更新匯報關係主檔",
+        "PIC_JOB_VERSION_TYPE": "R",
+        "PIC_JOB_JOB_VERSION": "TODAY",
+        "PIC_JOB_CREATOR": "",
+        "PIC_JOB_CREATOR_IP": "",
+        "PIC_JOB_DATABASE_TYPE": "POSTGRESQL",
+        "PIC_JOB_DATABASE_PREFIX": "PIC_JOB_DATABASE_POSTGRESQL",
+        "PIC_JOB_DATABASE_POSTGRESQL_IS_ENCRYPT": "N",
+        "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq_dev1;Password=L1-}KTx}Eh;Database=sethqattend_dev1;Search Path=sethq",
+        //"PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONSTRING": "Host=172.22.12.32;PORT=5432;Username=sethq_dev2;Password=v=YNR!+g;Database=sethqattend_dev2;Search Path=sethq",
+        "PIC_JOB_DATABASE_POSTGRESQL_CONNECTIONTIMEOUT": "2000",
+        "PIC_JOB_SKIP_EMPTY_FILE": "N"
+      }
+    }
+  }
+}
