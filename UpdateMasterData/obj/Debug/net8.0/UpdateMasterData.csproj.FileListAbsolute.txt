@@ -1,0 +1,4 @@
+C:\Users\LiuDe-Hong\Documents\TESTTTT\UpdateMasterData\obj\Debug\net8.0\UpdateMasterData.csproj.AssemblyReference.cache
+C:\Users\LiuDe-Hong\Documents\TESTTTT\UpdateMasterData\obj\Debug\net8.0\UpdateMasterData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LiuDe-Hong\Documents\TESTTTT\UpdateMasterData\obj\Debug\net8.0\UpdateMasterData.csproj.CoreCompileInputs.cache
+C:\Users\LiuDe-Hong\Documents\TESTTTT\UpdateMasterData\obj\Debug\net8.0\UpdateMasterData.sourcelink.json
