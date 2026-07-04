@@ -506,3 +506,42 @@ FROM sethq.job_config_setting_dev1; 5 Job_UpdateEmployeeDiff Col1.Name diff_stat
 99 picteam 127.0.0.1 2024-03-28 13:06:08.184 Login ShowOTP Y N N N OTP是否顯示在UI(測試用)
 
 565 Afforest 127.0.0.1 2025-10-08 06:55:57.298 Login IsUserLoginWithAccount Y N N N 一般使用者是否可用帳號密碼登入 
+
+
+
+select * from base_employee_transfer_m 
+
+id
+serverip
+versionid
+createuser
+createip
+createtime
+updateuser
+updateip
+updatetime
+empname
+empid
+transfer_code
+transfer_date
+group_type
+job_code
+datecurrent
+
+列名 # 資料類型 身份 整理 不為空 預設 評論
+job_code 15 varchar(10) [NULL] default false [NULL] jobcode 未來夜點可能要用
+group_type 14 varchar(3) [NULL] default false [NULL] 分類(0:數位大樓, 1:商場現場, 2:聯服, 3:地區, 4:門市, 9:其他)
+empname 10 varchar(20) [NULL] default false [NULL] 員工姓名
+empid 11 varchar(10) [NULL] default false [NULL] 員工編號
+serverip 2 varchar(100) [NULL] default false [NULL] 執行serverip
+id 1 serial4 [NULL] [NULL] true nextval('base_employee_transfer_m_id_seq'::regclass) 序號 IDENTITY
+createip 5 varchar(100) [NULL] default false [NULL] 新增IP
+createuser 4 varchar(50) [NULL] default false [NULL] 新增使用者
+createtime 6 timestamp [NULL] [NULL] false [NULL] 新增時間
+updateip 8 varchar(100) [NULL] default false [NULL] 更新IP
+updateuser 7 varchar(50) [NULL] default false [NULL] 更新使用者
+versionid 3 int4 [NULL] [NULL] true [NULL] 更新時, 版本檢查
+updatetime 9 timestamp [NULL] [NULL] false [NULL] 更新時間
+transfer_date 13 date [NULL] [NULL] false [NULL] 異動日
+transfer_code 12 varchar(2) [NULL] default false [NULL] 異動類型(01:PT->FT, 02:FT->PT, 06:調出超商, 09:離職, 10:留停, 11:分類異動)
+datecurrent 16 date [NULL] [NULL] true [NULL] 資料日期
