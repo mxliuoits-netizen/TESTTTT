@@ -1,0 +1,508 @@
+SELECT id, diff_status, empname, costid, empid, ptft, sapaname, effectivedate, expiredate, sex, sapteamid, identification, identification_type, sap_transfer_code, transfer_in_date, transfer_out_date, realonboarddate
+
+
+FROM sethq.job_employeediff_tmp; 
+
+
+
+
+SELECT id, job_code, setting_key, setting_value, serverip, createuser, createip, createtime, updateuser, updateip, updatetime, versionid
+
+
+FROM sethq.job_config_setting_dev1; 5 Job_UpdateEmployeeDiff Col1.Name diff_status VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+35 Job_UpdateEmployeeDiff Table Job_EmployeeDiff_tmp VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+36 Job_UpdateEmployeeDiff LocalPath C:\RSJOB\rs_comsedhq\job\Data\UpdateEmployeeDiff\Temp VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+37 Job_UpdateEmployeeDiff BakPath C:\RSJOB\rs_comsedhq\job\Data\UpdateEmployeeDiff\Bak VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+38 Job_UpdateEmployeeDiff IsDecode Y VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+39 Job_UpdateEmployeeDiff HeaderCount 8 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+40 Job_UpdateEmployeeDiff IsChkFile Y VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+41 Job_UpdateEmployeeDiff Split | VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+42 Job_UpdateEmployeeDiff ManualFilePath C:\RSJOB\rs_comsedhq\job\Data\UpdateEmployeeDiff\Manual VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+43 Job_UpdateEmployeeDiff Col1.Len 1 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+44 Job_UpdateEmployeeDiff Col1.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+45 Job_UpdateEmployeeDiff Col2.Name empname VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+46 Job_UpdateEmployeeDiff Col2.Len 20 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+47 Job_UpdateEmployeeDiff Col2.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+48 Job_UpdateEmployeeDiff Col3.Name costid VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+49 Job_UpdateEmployeeDiff FTPFileName EMP_DIFF{0}.TXT VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+50 Job_UpdateEmployeeDiff ManualFileName EMP_DIFF{0}.TXT VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+51 Job_UpdateEmployeeDiff Col3.Len 20 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+52 Job_UpdateEmployeeDiff Col3.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+53 Job_UpdateEmployeeDiff Col4.Name empid VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+54 Job_UpdateEmployeeDiff Col4.Len 10 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+55 Job_UpdateEmployeeDiff Col4.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+56 Job_UpdateEmployeeDiff Col5.Name ptft VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+57 Job_UpdateEmployeeDiff Col5.Len 2 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+143 Job_UpdateEmployeeDiff Col5.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+144 Job_UpdateEmployeeDiff Col6.Name sapaname VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+145 Job_UpdateEmployeeDiff Col6.Len 50 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+146 Job_UpdateEmployeeDiff Col6.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+147 Job_UpdateEmployeeDiff Col7.Name effectivedate VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+148 Job_UpdateEmployeeDiff Col7.Len 8 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+149 Job_UpdateEmployeeDiff Col7.Type date VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+150 Job_UpdateEmployeeDiff Col7.Rule yyyyMMdd VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+151 Job_UpdateEmployeeDiff Col8.Name expiredate VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+203 Job_UpdateEmployeeDiff Col8.Len 8 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+227 Job_UpdateEmployeeDiff Col8.Type date VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+228 Job_UpdateEmployeeDiff Col8.Rule yyyyMMdd VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+232 Job_UpdateEmployeeDiff Col9.Name sex VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+244 Job_UpdateEmployeeDiff Col9.Len 1 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+245 Job_UpdateEmployeeDiff Col9.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+246 Job_UpdateEmployeeDiff Col10.Name sapteamid VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+247 Job_UpdateEmployeeDiff Col10.Len 20 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+248 Job_UpdateEmployeeDiff Col10.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+249 Job_UpdateEmployeeDiff Col11.Name identification VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+250 Job_UpdateEmployeeDiff Col11.Len 20 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+251 Job_UpdateEmployeeDiff Col11.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+278 Job_UpdateEmployeeDiff Col12.Name identification_type VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+279 Job_UpdateEmployeeDiff Col12.Len 5 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+280 Job_UpdateEmployeeDiff Col12.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+281 Job_UpdateEmployeeDiff Col13.Name sap_transfer_code VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+282 Job_UpdateEmployeeDiff Col13.Len 2 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+283 Job_UpdateEmployeeDiff Col13.Type string VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+284 Job_UpdateEmployeeDiff Col14.Name transfer_in_date VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+285 Job_UpdateEmployeeDiff Col14.Len 8 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+286 Job_UpdateEmployeeDiff Col14.Type date VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+287 Job_UpdateEmployeeDiff Col14.Rule yyyyMMdd VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+288 Job_UpdateEmployeeDiff Col15.Name transfer_out_date VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+289 Job_UpdateEmployeeDiff Col15.Len 8 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+290 Job_UpdateEmployeeDiff Col15.Type date VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+291 Job_UpdateEmployeeDiff Col15.Rule yyyyMMdd VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+292 Job_UpdateEmployeeDiff Col16.Name realonboarddate VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+293 Job_UpdateEmployeeDiff Col16.Len 8 VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+294 Job_UpdateEmployeeDiff Col16.Type date VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+295 Job_UpdateEmployeeDiff Col16.Rule yyyyMMdd VDI-OUTS-022 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 SYSTEM VDI-OUTS-022 2024-04-16 16:57:10.089 0
+
+320 Job_UpdateEmployeeDiff SFTP_DecodeFileName Decode_{0} 127.0.0.1 system 127.0.0.1 2024-10-24 15:44:56.257 system 1024_update 2024-10-24 15:44:56.257 0
+
+322 Job_UpdateEmployeeDiff SFTP_DecodeCode 'ABC6deDISuNOJnopKMtwxPQRvTUhiXZabc45fgFGj7EH8klmVWqrsYyz012L39~`!@#$%^&*()_-+={[|\":;?/>.<,]} 127.0.0.1 system 127.0.0.1 2024-10-24 15:44:56.257 system 1024_update 2024-10-24 15:44:56.257 0
+
+331 Job_UpdateEmployeeDiff SFTP_IP bqXaOhk7ea1WCny3mInnyg== 127.0.0.1 system 127.0.0.1 2024-10-24 15:44:56.257 system 1024_update 2024-10-24 15:44:56.257 0
+
+332 Job_UpdateEmployeeDiff SFTP_ID I6qn9L6LEnwB3IUzjz7BMA== 127.0.0.1 system 127.0.0.1 2024-10-24 15:44:56.257 system 1024_update 2024-10-24 15:44:56.257 0
+
+333 Job_UpdateEmployeeDiff SFTP_PWD plV+X96gX1S8GcICrS/MNw== 127.0.0.1 system 127.0.0.1 2024-10-24 15:44:56.257 system 1024_update 2024-10-24 15:44:56.257 0
+
+344 Job_UpdateEmployeeDiff SFTP_PORT tu4HHVfBPBQ5csY2oxTGuQ== 127.0.0.1 system 127.0.0.1 2024-10-24 15:44:56.257 system 1024_update 2024-10-24 15:44:56.257 0
+
+361 Job_UpdateEmployeeDiff SFTP_Folder Y1RORKKSFNV3ggiCDBnvSw== 127.0.0.1 system 127.0.0.1 2024-10-24 15:44:56.257 system 1024_update 2024-10-24 15:44:56.257 0
+
+367 Job_UpdateEmployeeDiff SFTP_IsNeedDecrypt Y 127.0.0.1 system 127.0.0.1 2024-10-28 13:22:28.191 system 1024_update 2024-10-28 13:22:28.191 0 select * from system_config_m 5 Afforest 127.0.0.1       2014-04-03 00:00:00.000 ImpMasterData DecodeName Decode_{0} Decode_{0} Decode_{0} Decode_{0} 解密後的檔名
+
+6 Afforest 127.0.0.1       2014-04-03 00:00:00.000 ImpMasterData DecodeCodePath Decode.txt Decode.txt Decode.txt Decode.txt 解密用的金鑰檔名
+
+7 Afforest 127.0.0.1       2014-04-03 00:00:00.000 UpdateEmployee CheckFlag N Y Y Y 更新員工主檔，是否檢核更新比例
+
+9 Afforest 127.0.0.1       2014-04-15 00:00:00.000 UpdateQuota 103 112 112 112 112 剩餘假轉入時，事假預設額度
+
+10 Afforest 127.0.0.1       2014-04-15 00:00:00.000 UpdateQuota 104 224 224 224 224 剩餘假轉入時，病假預設額度
+
+11 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyWorkflow Leave 1 1 1 1 簽核流程，請假
+
+12 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyWorkflow Attend 1 1 1 1 簽核流程，忘刷卡
+
+13 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyWorkflow SwitchArrange 1 1 1 1 簽核流程，調班
+
+14 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyWorkflow OvertimeForecast 1 1 1 1 簽核流程，預期加班
+
+15 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyWorkflow OvertimeActual 2 2 2 2 簽核流程，實際加班
+
+18 Afforest 127.0.0.1       2014-04-22 00:00:00.000 UpdateQuotaQualify BirthdayQuota 12 12 12 12 生日假額度
+
+19 Afforest 127.0.0.1       2014-04-22 00:00:00.000 UpdateQuotaQualify BirthdayRangBegin 31 31 31 31 生日假可提前使用天數
+
+20 Afforest 127.0.0.1       2014-04-22 00:00:00.000 UpdateQuotaQualify BirthdayRangEnd 31 31 31 31 生日假可延後使用天數
+
+22 Afforest 127.0.0.1       2014-04-23 00:00:00.000 UpdateOrganization IsGetFromFTP Y Y Y Y 是否從FTP下載主檔檔案
+
+23 Afforest 127.0.0.1       2014-04-23 00:00:00.000 UpdateQuota IsGetFromFTP N Y Y Y 是否從FTP下載主檔檔案
+
+27 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 1 總經理 總經理 總經理 總經理 職稱包含該字的，極為管理人
+
+28 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 2 副總經理 副總經理 副總經理 副總經理 職稱包含該字的，極為管理人
+
+29 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 3 部經理 部經理 部經理 部經理 職稱包含該字的，極為管理人
+
+30 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 4 Team經理 Team經理 Team經理 Team經理 職稱包含該字的，極為管理人
+
+42 AutoLockApply cosrswebu01 2023-09-24 07:00:06.040 ArrangeApply ApplyCloseDate 20230920 20140630 20140630 20140630 考勤申請鎖定日
+
+39 Afforest 127.0.0.1       2014-04-03 00:00:00.000 ImpAttendLog Pwd pic1218196 pic1218196 1qaz@WSX 1qaz@WSX 轉入卡鐘資料，FTP 密碼
+
+40 Afforest 127.0.0.1       2014-04-03 00:00:00.000 ImpAttendLog IP 10.67.110.10 10.67.110.10 172.22.5.22 172.22.5.22 轉入卡鐘資料，FTP IP
+
+41 Afforest 127.0.0.1       2014-04-03 00:00:00.000 ImpAttendLog Folder hankyuAttend/job/temp/ImpAttendLog hankyuAttend/job/temp/ImpAttendLog 轉入卡鐘資料，FTP位置
+
+43 Paggie 127.0.0.1 2014-06-30 00:00:00.000 ArrangeApply ApplyCloseDateHR 20140620 20140620 20140630 20140630 考勤申請鎖定日
+
+52 picteam 127.0.0.1 2014-09-04 10:54:43.277 RestCountSet PowerUser picteam;hadmin; picteam; picteam; picteam; 職稱每月例休、全(半)日班設定；允許本設定中的使用者異動當年度以前設定值.
+
+54 picteam 127.0.0.1 2016-12-07 10:54:43.287 CheckTrans ActiveDate 20170101 20170101 20170101 20170101 是否啟用調班檢核(上線與排班檢核平行期須先關閉)
+
+55 oki 127.0.0.1 2017-06-07 14:20:44.790 UploadArrange UploadFilePaths D:\rs_hankyu\web\data\UploadArrange D:\rs_hankyu\web\data\UploadArrange D:\rs_hankyu\web\data\UploadArrange D:\rs_hankyu\web\data\UploadArrange 班表上傳功能;設定上傳檔的擺放路徑
+
+56 oki 127.0.0.1 2017-06-07 14:20:44.790 UploadArrange UploadFileNameRule Arrange_{0}_{1}_{2}.xls Arrange_{0}_{1}_{2}.xls Arrange_{0}_{1}_{2}.xls Arrange_{0}_{1}_{2}.xls 班表上傳功能;下載排班樣版檔名規則.{0}=yyyyMM,排班年月、{1}=EMP_ID,上傳者員工編號、{2}=yyyyMMddHHmmssfff,系統年月日時分秒豪秒。
+
+57 oki 127.0.0.1 2017-06-07 14:20:44.790 UploadArrange TemplateNameRule_Download Arrange_{0}.xls Arrange_{0}.xls Arrange_{0}.xls Arrange_{0}.xls 班表上傳功能;下載排班樣版檔名規則.{0}=yyyyMM,排班年月
+
+58 oki 127.0.0.1 2017-06-07 14:20:44.790 UploadArrange IsEnabled Y Y Y Y 班表上傳功能;上傳功能鍵是否啟用
+
+59 Ban 127.0.0.1 2018-02-27 16:47:33.000 WebLogin CheckInOutLastDataMin 480 20 20 20 打卡簽到/簽退的上一筆資料,x分鐘前至現在
+
+60 Manfred 127.0.0.1 2018-02-27 16:47:33.013 UpdateAttend today_s_date -2 -2 -2 -2 簽到/簽退更新時，參數TODAY的開始時間(前後幾天)
+
+61 Manfred 127.0.0.1 2018-02-27 16:47:33.013 UpdateAttend today_e_date 1 1 1 1 簽到/簽退更新時，參數TODAY的結束時間(前後幾天)
+
+62 Manfred 127.0.0.1 2018-02-27 16:47:33.013 WebLogin ChangeDayHours 2 2 2 2 打卡簽到/簽退換日時間點
+
+63 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyWorkflow AttendNote1 1 1 1 1 簽核流程，出勤紀錄說明單, 1層
+
+64 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyWorkflow AttendNote2 2 2 2 2 簽核流程，出勤紀錄說明單, 2層
+
+102 picteam 127.0.0.1 2024-03-21 15:14:00.000 Login GPSActive Y Y Y Y 登入時是否啟用GPS ，Y:啟用 N:停用
+
+17 Afforest 127.0.0.1       2014-04-18 00:00:00.000 UpdateOrganization MaxDiffRate 100 20 20 20 更新組織主檔，檢核更新比例
+
+35 Afforest 127.0.0.1       2014-04-23 00:00:00.000 ArrangeApplyType ActualOvertime 事後加班 事後加班 事後加班 事後加班 考勤申請類別_50
+
+36 Afforest 127.0.0.1       2014-04-23 00:00:00.000 ArrangeApplyType ForgotAttend 補刷卡 補刷卡 補刷卡 補刷卡 考勤申請類別_10
+
+32 Afforest 127.0.0.1       2014-04-23 00:00:00.000 ArrangeApplyType Transfer 調班 調班 調班 調班 考勤申請類別_60
+
+4 Afforest 127.0.0.1       2014-04-03 00:00:00.000 ImpMasterData Folder P89FBJNvyLA/culROx7Usg== hankyuAttend/job/ \ 更新主檔，FTP位置
+
+3 Afforest 127.0.0.1       2014-04-03 00:00:00.000 ImpMasterData IP NvYU/a4LjokxcQdEjt4s2A== 10.51.5.96 172.22.17.171 10.170.5.96 更新主檔，FTP IP
+
+1 Afforset 127.0.0.1       2014-04-03 00:00:00.000 ImpMasterData ID 8Qggu3pYfTShStz9T8zS4A== pdsc administrator rs_pdc 更新主檔，FTP帳號
+
+2 Afforest 127.0.0.1       2014-04-03 00:00:00.000 ImpMasterData Pwd UIRjJzpWIkxdjlTKgofWfg== R379rYT8 1qaz@WSXau4au4 RJjGtJKwrm88 更新主檔，FTP 密碼
+
+24 Afforest 127.0.0.1       2014-04-23 00:00:00.000 DepArrangeShowAName 1 總經理 總經理 總經理 總經理 部排班特別顯示的職稱
+
+25 Afforest 127.0.0.1       2014-04-23 00:00:00.000 DepArrangeShowAName 2 副總經理 副總經理 副總經理 副總經理 部排班特別顯示的職稱
+
+8 Afforest 127.0.0.1       2014-04-03 00:00:00.000 UpdateEmployee MaxDiffRate 100 100 100 100 更新員工主檔，檢核更新比例
+
+26 Afforest 127.0.0.1       2014-04-23 00:00:00.000 DepArrangeShowAName 3 日籍主管 日籍主管 日籍主管 日籍主管 部排班特別顯示的職稱
+
+38 Afforset 127.0.0.1       2014-04-03 00:00:00.000 ImpAttendLog ID pic pic administrator administrator 轉入卡鐘資料，FTP帳號
+
+44 Paggie 127.0.0.1 2014-07-11 00:00:00.000 AttendReport MailHost 127.0.0.1 127.0.0.1 127.0.0.1 127.0.0.1 出勤異常報表郵件主機
+
+45 Paggie 127.0.0.1 2014-07-11 00:00:00.000 AttendReport MailFrom rosteringSystem@pic.net.tw pic@mail.pic.net.tw pic@mail.pic.net.tw pic@mail.pic.net.tw 出勤異常報表寄件者
+
+46 Paggie 127.0.0.1 2014-07-11 00:00:00.000 AttendReport MailTo aubrey@uni-ustyle.com.tw,anna_lin@uni-ustyle.com.tw,kennylo@pic.net.tw,arther@pic.net.tw,phelesone11@pic.net.tw,fanchen@pic.net.tw paggieisme@mail.pic.net.tw,john@mail.pic.net.tw,aubrey@uni-hankyu.com.tw paggieisme@mail.pic.net.tw paggieisme@mail.pic.net.tw 出勤異常報表收件者
+
+47 Paggie 127.0.0.1 2014-07-11 00:00:00.000 AttendReport MailCc 出勤異常報表副本
+
+48 Paggie 127.0.0.1 2014-07-11 00:00:00.000 ForgotAttendReport MailHost 127.0.0.1 127.0.0.1 127.0.0.1 127.0.0.1 忘刷卡次數統計報表郵件主機
+
+49 Paggie 127.0.0.1 2014-07-11 00:00:00.000 ForgotAttendReport MailFrom rosteringSystem@pic.net.tw pic@mail.pic.net.tw pic@mail.pic.net.tw pic@mail.pic.net.tw 忘刷卡次數統計報表寄件者
+
+50 Paggie 127.0.0.1 2014-07-11 00:00:00.000 ForgotAttendReport MailTo aubrey@uni-ustyle.com.tw,anna_lin@uni-ustyle.com.tw,kennylo@pic.net.tw,arther@pic.net.tw,phelesone11@pic.net.tw,fanchen@pic.net.tw paggieisme@mail.pic.net.tw,john@mail.pic.net.tw,aubrey@uni-hankyu.com.tw paggieisme@mail.pic.net.tw paggieisme@mail.pic.net.tw 忘刷卡次數統計報表收件者
+
+51 Paggie 127.0.0.1 2014-07-11 00:00:00.000 ForgotAttendReport MailCc 忘刷卡次數統計報表副本
+
+53 picteam 127.0.0.1 2014-09-04 10:54:43.287 RestCountSet SetYear 1 1 1 1 例休、全日班年份設定 1:前後一年
+
+66 Pheles 127.0.0.1 2020-02-16 22:35:57.940 DiffAttendRange AddDiffHours 5 6 6 6 計算打卡時間在排班開始/結束時間,前N小時以內
+
+68 picteam 127.0.0.1 2020-01-19 00:00:00.000 AttendBuffer AttendIn 5 30 30 30 刷卡
+
+69 pictem 127.0.0.1 2020-01-19 00:00:00.000 AttendBuffer AttendOut 60 30 30 30 
+
+91 Arrange depLockDate 16 16 16 16 單位排班作業鎖定日
+
+93 Keith 127.0.0.1 2022-03-31 22:35:57.937 DiffAttendRange DefaultRangeFromArrangeEnd 5 5 5 5 計算一般班別刷退時間在排班結束時間加N小時以內的最大值
+
+94 Keith 127.0.0.1 2022-03-31 22:35:57.937 DiffAttendRange SpecialRangeFromAttendStart 13.5 13.5 13.5 13.5 計算國、休的刷退時間在刷卡開始時間加N小時以內的最大值
+
+95 Keith 127.0.0.1 2023-12-22 15:26:22.297 WorkLength MaxWorkTypeCount 300 300 300 300 系統可新增班別數量上限
+
+71 picteam 127.0.0.1 2020-09-21 17:10:02.647 Arrange WorkTimeIntervalForCheck 11 11 11 11 工作班別間格(考勤差異檢核用)
+
+77 fionalin 172.20.21.120 2020-10-12 15:12:06.160 LockMonth M_ManagerCheck 16 16 16 16 月排班，個人無法調整班別，但可由主管修改
+
+78 fionalin 172.20.21.120 2020-10-12 15:12:06.160 LockMonth M_FinallyLock 21 21 21 21 月排班，鎖定日
+
+79 fionalin 172.20.21.120 2020-10-12 15:12:06.160 WorkLength MAX 12 12 12 12 
+
+80 fionalin 172.20.21.120 2020-10-12 15:12:06.160 LockMonth M_Set_Default_S 21 21 21 21 月排班，個人設定預設排別開始日
+
+81 fionalin 172.20.21.120 2020-10-12 15:12:06.160 LockMonth M_Set_Adjust_S 10 10 10 10 月排班，個人調整班別開始日
+
+82 fionalin 172.20.21.120 2020-10-12 15:12:06.160 AutoArrange M 10 10 10 10 月排班，自動排班日
+
+83 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 5 協理 協理 協理 協理 職稱包含該字的，極為管理人
+
+84 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 6 部主管 部主管 部主管 部主管 職稱包含該字的，極為管理人
+
+85 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 7 區經理 區經理 區經理 區經理 職稱包含該字的，極為管理人
+
+86 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 8 區組長 區組長 區組長 區組長 職稱包含該字的，極為管理人
+
+87 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 9 代理副部主管 代理副部主管 代理副部主管 代理副部主管 職稱包含該字的，極為管理人
+
+88 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 10 副部經理 副部經理 副部經理 副部經理 職稱包含該字的，極為管理人
+
+89 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 11 TEAM代理經理 TEAM代理經理 TEAM代理經理 TEAM代理經理 職稱包含該字的，極為管理人
+
+90 Afforest 127.0.0.1       2014-05-07 00:00:00.000 OrganizationOwner 12 副部主管 代理副部主管 代理副部主管 代理副部主管 職稱包含該字的，極為管理人
+
+96 Keith 127.0.0.1 2023-12-25 10:41:29.800 Arrange EmployeeListQueryExpireMonth -3 -3 -3 -3 系統員工下拉式選單包含離職幾個月內人員(負值，例如:-3)
+
+101 picteam 127.0.0.1 2024-03-21 15:14:00.000 Login LoginLockMins 30 30 30 30 連續登入失敗鎖定分鐘
+
+103 Afforest 127.0.0.1 2014-04-18 00:00:00.000 UpdateOrganization TeamTypeWhiteList 1,2,3,9 1,2,3,9 1,2,3,9 1,2,3,9 1商場現場/2聯服/3地區/4門市/9其他
+
+104 Afforest 127.0.0.1       2014-04-03 00:00:00.000 UpdateEmployee TeamTypeWhiteList 1,2,3,9 1,2,3,9 1,2,3,9 1,2,3,9 1商場現場/2聯服/3地區/4門市/9其他
+
+105 Afforest 127.0.0.1       2014-04-03 00:00:00.000 UpdateQuota RebuildDate 1 1 1 1 檔案全件日
+
+16 Afforest 127.0.0.1       2014-04-18 00:00:00.000 UpdateOrganization CheckFlag N Y Y Y 更新組織主檔，是否檢核更新比例
+
+107 Afforest 127.0.0.1       2024-05-13 19:04:49.987 UpdateGPS IsGetFromFTP Y Y Y Y 是否從FTP下載主檔檔案
+
+108 Afforest 127.0.0.1       2024-05-13 19:04:49.987 UpdateGPS MaxDiffRate 100 20 20 20 更新組織主檔，檢核更新比例
+
+109 Afforest 127.0.0.1 2024-05-13 19:04:49.987 UpdateGPS TeamTypeWhiteList 1,2,3,9 1,2,3,9 1,2,3,9 1,2,3,9 1商場現場/2聯服/3地區/4門市/9其他
+
+110 Afforest 127.0.0.1       2024-05-13 19:04:49.987 UpdateGPS CheckFlag N Y Y Y 更新組織主檔，是否檢核更新比例
+
+111 system system 2024-06-13 17:39:51.527 Leave NotCrossDay 00919,00953 00919,00953 00919,00953 00919,00953 不可請連續假WTID
+
+31 Afforest 127.0.0.1       2014-04-23 00:00:00.000 ArrangeApplyType Leave 請假 請假 請假 請假 考勤申請類別_30
+
+70 picteam 127.0.0.1 2020-09-21 17:08:49.033 Arrange WorkTimeInterval 11 11 11 11 工作班別間隔
+
+67 Afforest 127.0.0.1       2014-04-23 00:00:00.000 ArrangeApplyType AttendNote 異常原因填寫 異常原因填寫 異常原因填寫 異常原因填寫 考勤申請類別_20
+
+112 Afforest 127.0.0.1       2014-04-23 00:00:00.000 ArrangeApplyType ForecastOvertime 事前加班 事前加班 事前加班 事前加班 考勤申請類別_40
+
+113 fionalin 172.20.21.120 2020-10-12 15:12:06.160 ArrangeGroup 01 其他人員(後勤) 其他人員(後勤) 其他人員(後勤) 其他人員(後勤) 
+
+114 fionalin 172.20.21.120 2020-10-12 15:12:06.160 ArrangeGroup 04 聯服 聯服 聯服 聯服 
+
+115 fionalin 172.20.21.120 2020-10-12 15:12:06.160 ArrangeGroup 05 商場人員 商場人員 商場人員 商場人員 
+
+116 fionalin 172.20.21.120 2020-10-12 15:12:06.160 ArrangeGroup 03 區顧問 區顧問 區顧問 區顧問 
+
+117 fionalin 172.20.21.120 2020-10-12 15:12:06.160 ArrangeGroup 02 其他人員(外勤) 其他人員(外勤) 其他人員(外勤) 其他人員(外勤) 
+
+118 Afforest 127.0.0.1       2014-04-03 00:00:00.000 ImpMasterData Port tu4HHVfBPBQ5csY2oxTGuQ== 22 22 22 更新主檔，FTP PORT
+
+119 system system 2024-07-30 08:46:04.918 DefaultArrange 請重新排班 00110 請重新排班 請重新排班 請重新排班 請重新排班特殊排班
+
+120 system system 2024-07-30 08:46:04.918 DefaultArrange 01 00106 00106 00106 00106 其他人員(後勤)預設班
+
+121 system system 2024-07-30 11:12:20.234 DefaultArrange 例外人員 00109 00109 00109 00109 例外人員
+
+122 system system 2024-07-30 08:44:09.504 DefaultArrange 02 00106 00106 00106 00106 其他人員(外勤)預設班
+
+123 system system 2024-07-30 08:33:53.767 DefaultArrange 03 00106 00106 00106 00106 區顧問預設班
+
+124 system 127.0.0.1       2024-10-21 17:30:36.515 ApplyAttendRecord ShiftDay 1 1 1 1 考勤申請查詢打卡紀錄偏移植(D+- ? Day)
+
+793 system system 2024-07-09 09:14:51.186 Leave hrsp1_wtid 00960 00960 00960 00960 HRSP1腳色管理假別
+
+100 picteam 127.0.0.1 2024-03-21 15:14:00.000 Login LoginFailLockTimes 5 5 5 5 連續登入失敗鎖定次數
+
+157 Afforest 127.0.0.1       2024-05-13 19:04:49.987 RecoverPwd MinPwdLength 8 8 8 8 密碼最短長度
+
+159 fionalin 172.20.21.120 2020-10-12 15:12:06.160 ArrangeGroup 06 例外人員 例外人員 例外人員 例外人員 
+
+160 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyList OvertimeAttendShiftMins 60 60 60 60 考勤申請加班單對應卡鐘偏移植
+
+65 Pheles 127.0.0.1 2020-02-16 22:35:57.937 DiffAttendRange SubDiffHours 6 6 6 6 計算打卡時間在排班開始/結束時間,前N小時以內
+
+163 system 127.0.0.1 2025-02-17 09:34:48.067 report_download enable_cache N Y Y Y 報表下載CACHE
+
+98 picteam 127.0.0.1 2024-03-21 15:14:00.000 Login OTPActive Y Y Y Y 登入時是否啟用OTP ，Y:啟用 N:停用
+
+197 system system 2024-05-09 17:10:53.049 fn_work_exception early_attend_allow_shift 30 30 30 30 考勤異常之提早打卡偏移時間容許打卡
+
+199 system system 2024-07-09 09:14:51.186 VC with_expired_month 12 3 3 3 VC離職員工查詢過去月數
+
+230 system system 2024-07-09 09:14:51.186 WebSite WorkExceptionUrl https://ehr.unipcsc.com.tw/ApplyList/ApplyList https://ehr.unipcsc.com.tw/ApplyList/ApplyList https://ehr.unipcsc.com.tw/ApplyList/ApplyList https://ehr.unipcsc.com.tw/ApplyList/ApplyList 正式考勤申請功能網址(信件通知)
+
+231 system system 2024-07-09 09:14:51.186 WebSite Url https://ehr.unipcsc.com.tw/ https://ehr.unipcsc.com.tw/ https://ehr.unipcsc.com.tw/ https://ehr.unipcsc.com.tw/ 正式網址(信件通知)
+
+232 system system 2024-05-09 17:10:53.049 Mail notify_user_abnormal_show_zero Y Y Y Y 考勤異常信件0筆時是否出現
+
+233 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyWorkflow OvertimeActual2 1 1 1 1 簽核流程，實際加班(有事前加班單)
+
+234 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyWorkflow Leave2 2 2 2 2 簽核流程，請假(家庭照顧假,半薪安胎假,安胎假,長病假,傷病假,長事假,特殊照顧假)
+
+236 system system 2024-07-09 09:14:51.186 Approve DeptEmpAutoApproveMessage 部級人員自動通過 部級人員自動通過 部級人員自動通過 部級人員自動通過 部級人員自動通過文字訊息
+
+237 system system 2024-07-09 09:14:51.186 Approve HRFuncAutoApproveMessage 人資功能自動通過 人資功能自動通過 人資功能自動通過 人資功能自動通過 人資功能自動通過文字訊息
+
+238 system system 2024-07-09 09:14:51.186 Leave LeaveAttachPWD U?U+M7-V+eaW U?U+M7-V+eaW U?U+M7-V+eaW U?U+M7-V+eaW 上傳檔案壓縮密碼
+
+239 system system 2024-07-09 09:14:51.186 Leave temp_leave_lockmonth -2 -2 -2 -2 臨時假鎖定區間
+
+240 system system 2024-07-09 09:14:51.186 Leave temp_leave_querymonth -6 -6 -6 -6 臨時假設定查詢時間限制
+
+241 system system 2024-08-11 04:36:49.292 UpdateSpecialIdentity IsGetFromFTP N N N N 是否從FTP下載主檔檔案
+
+106 system system 2024-05-13 15:37:45.512 fn_work_exception leave_less_min_for_attend 29 29 29 29 考勤異常之請假打卡減少時間容許打卡
+
+235 Afforest 127.0.0.1       2014-04-16 00:00:00.000 Apply_Leave_Special worktype 00926,00936,00916,00917,00918,00922,00913,00950 00926,00936,00916,00917,00918,00922,00913,00950 00926,00936,00916,00917,00918,00922,00913,00950 00926,00936,00916,00917,00918,00922,00913,00950 半薪安胎假 00926,安胎假 00936, 長病假 00916 00917 00918,傷病假 00922,長事假 00913,特殊照顧假 00950
+
+265 system system 2024-08-11 04:36:49.292 Mail otp 10 10 10 10 OTP信件過期(10分鐘)
+
+266 system system 2024-08-11 04:36:49.292 Mail emergency_without_otp 24 24 24 24 OTP以外緊急信件過期(24小時)
+
+267 system system 2024-08-11 04:36:49.292 Mail normal 24 24 24 24 一般信件過期(24小時)
+
+298 picteam 127.0.0.1 2014-04-03 00:00:00.000 Login ChangePasswordDay 90 90 90 90 密碼變更建議天數
+
+331 system system 2025-04-28 11:16:27.395 CheckAbnormalData WhiteBlackList UpdateMasterData.Job_UpdateOrganization,UpdateMasterData.Job_UpdateEmployeeDiff,UpdateMasterData.Job_UpdateEmployeeVice,UpdateMasterData.Job_UpdateReporting,UpdateMasterData.Job_UpdateQuota,UpdateSpecialIdentity.Job_UpdateSpecialIdentity UpdateMasterData.Job_UpdateOrganization,UpdateMasterData.Job_UpdateEmployeeDiff,UpdateMasterData.Job_UpdateEmployeeVice,UpdateMasterData.Job_UpdateReporting,UpdateMasterData.Job_UpdateQuota,UpdateSpecialIdentity.Job_UpdateSpecialIdentity UpdateMasterData.Job_UpdateOrganization,UpdateMasterData.Job_UpdateEmployeeDiff,UpdateMasterData.Job_UpdateEmployeeVice,UpdateMasterData.Job_UpdateReporting,UpdateMasterData.Job_UpdateQuota,UpdateSpecialIdentity.Job_UpdateSpecialIdentity UpdateMasterData.Job_UpdateOrganization,UpdateMasterData.Job_UpdateEmployeeDiff,UpdateMasterData.Job_UpdateEmployeeVice,UpdateMasterData.Job_UpdateReporting,UpdateMasterData.Job_UpdateQuota,UpdateSpecialIdentity.Job_UpdateSpecialIdentity 監控排程通知 白黑名單
+
+198 system system 2024-05-09 17:10:53.049 fn_work_exception delay_attend_allow_shift 11 11 11 11 考勤異常之延遲刷退偏移時間容許打卡
+
+161 system system 2024-05-09 17:10:53.049 fn_work_exception official_online_date 2025-11-21 2025-11-21 2025-11-21 2025-11-21 考勤異常正式啟用日(當天及之後才會出異常)
+
+364 picteam 127.0.0.1 2024-03-28 13:06:08.184 Login IsNoneRecordNeedChangePassword Y Y Y Y 無變更紀錄時是否強制變更密碼
+
+958 system system 2026-05-20 19:00:48.176 UpdateEmployee IsMailPWD N N N N 是否發送員工密碼通知信 Y:發信 N:不發
+
+397 picteam 127.0.0.1 2024-03-28 13:06:08.184 Report SxssfMemoryRows 5000 5000 5000 5000 SXSSF允許記憶體使用筆數
+
+430 system system 2024-05-09 17:10:53.049 fn_work_exception temporary_less_min 30 30 30 30 考勤異常之天災選舉假打卡至少打卡分鐘數(=>30分)
+
+431 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyList DinnerRestMinutes 30 30 30 30 當加班接續在上班結束時間應該要休息30分鐘
+
+463 system system 2024-07-09 09:14:51.186 WebSite CSRUrl https://pcsccloud-my.sharepoint.com/personal/garfield_mail_7-11_com_tw/Lists/List4?env=WebViewList https://pcsccloud-my.sharepoint.com/personal/garfield_mail_7-11_com_tw/Lists/List4?env=WebViewList https://pcsccloud-my.sharepoint.com/personal/garfield_mail_7-11_com_tw/Lists/List4?env=WebViewList https://pcsccloud-my.sharepoint.com/personal/garfield_mail_7-11_com_tw/Lists/List4?env=WebViewList 問題反應網址
+
+464 system system 2024-05-09 17:10:53.049 Mail notify_admin_hr_when_send_region_hr Y Y Y Y 申請考勤單據寄送通知信給地區人資時是否要通知總部人資
+
+465 system system 2024-05-09 17:10:53.049 AttendInOut GpsLimitAccuracy 0 100 100 100 上班打卡GPS精度限制
+
+466 picteam 127.0.0.1 2020-09-21 17:08:49.033 Arrange ManagerArrangeLevel 2 2 2 2 主管可排班階層
+
+496 picteam 127.0.0.1 2020-09-21 17:08:49.033 Arrange SpecialWeekREOFOverSetting N N N N 到離職週是否啟用上下限彈性設定 N:限制 Y:彈性
+
+497 picteam 127.0.0.1 2020-09-21 17:08:49.033 Arrange PTEffectiveWeekNeedDayOff N N N N PT到職週是否強制放假 N:不強制 Y:強制
+
+498 picteam 127.0.0.1 2020-09-21 17:08:49.033 Arrange PTExpiredWeekNeedDayOff N N N N PT離職週是否強制放假 N:不強制 Y:強制
+
+529 Afforest 127.0.0.1 2025-09-24 15:44:33.612 Login OTPCookie Y Y Y Y OTP Cookie
+
+563 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyList EmptyLeaveWtId 00901,00902,00904 00901,00902,00904 00901,00902,00904 00901,00902,00904 需要檢核為0的假別,代休假00901,特休假00902,病假00904
+
+564 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyList LongLeaveWtId 00913,00916,00917,00918 00913,00916,00917,00918 00913,00916,00917,00918 00913,00916,00917,00918 觸發檢核應該為0的假別額度,長事假00913,長病假(2~3年)00916,(4~5年)00917,(>6年)00918
+
+567 Afforest 127.0.0.1 2025-10-08 06:55:57.298 OAuth MenuDisabled 1001 1001 1001 1001 Oauth登入時隱藏功能（密碼更新）
+
+925 system system 2026-04-23 14:00:09.589 Leave less_attend_range_wtid 00957,00961 00957,00961 00957,00961 00957,00961 減少工時系列假別(AP/FN特殊規則參考)
+
+566 Afforest 127.0.0.1 2025-10-08 06:55:57.298 Login IsEnableOAuthLogin Y Y Y Y OAuth登入頁是否開啟OAuth登入
+
+596 Afforest 127.0.0.1 2025-09-24 15:44:33.612 Login OTPCookieExpireMin 360 360 360 360 OTP Cookie 有效時長(分鐘)
+
+628 Afforest 127.0.0.1 2025-09-24 15:44:33.612 AttendHQ LocationName 總部,內湖,中壢 總部,內湖,中壢 總部,內湖,中壢 總部,內湖,中壢 總部卡鐘匯入排程單位
+
+629 Afforest 127.0.0.1       2014-04-16 00:00:00.000 ApplyList EmptyLeaveWtId00913 00901,00902,00903 00901,00902,00903 00901,00902,00903 00901,00902,00903 申請長事假 需要檢核為0的假別,代休假00901,特休假00902,事假00903
+
+662 system system 2024-05-09 17:10:53.049 Mail MonthFirstCreateTime 9.8 9.8 9.8 9.8 考勤通知27日信件發送指定時間(09:48)
+
+663 system system 2024-05-09 17:10:53.049 Mail WeekNotifyCreateTime 9.8 9.8 9.8 9.8 考勤通知每周信件發送指定時間(09:48)
+
+694 Afforest 127.0.0.1       2014-04-03 00:00:00.000 UpdateEmployee MailPWDShiftDay 1 1 1 1 員工密碼通知信發送延遲日數
+
+859 system system 2024-05-09 17:10:53.049 Mail RunCreateTime 17 9.8 9.8 9.8 考勤通知非同系統時間補發發送指定時間(09:48)
+
+727 picteam 127.0.0.1 2020-09-21 17:08:49.033 Arrange FlexEnableLeave Y Y Y Y 例外人員彈性工時是否計算請假
+
+728 picteam 127.0.0.1 2020-09-21 17:08:49.033 Arrange FlexEnableOvertime Y Y Y Y 例外人員彈性工時是否計算加班
+
+729 system system 2024-07-09 09:14:51.186 Approve UntrackEmpAutoApproveMessage 例外人員自動通過 例外人員自動通過 例外人員自動通過 例外人員自動通過 例外人員自動通過文字訊息
+
+661 system system 2024-05-09 17:10:53.049 Mail MonthSecondCreateTime 9.8 9.8 9.8 9.8 考勤通知5日信件發送指定時間(09:48)
+
+695 system system 2024-05-09 17:10:53.049 fn_work_exception untacked_online_date 2025/12/01 2026-12-21 2025/12/01 2025/12/01 考勤異常例外人員延遲啟用日(當天及之後才會出異常)
+
+562 system system 2024-07-09 09:14:51.186 Calendar MaxConfirmDate 20261231 20261231 20261231 20261231 行事曆設定[最大請假日]picteam,2025-12-12 10:25:11
+
+158 Afforest 127.0.0.1       2014-04-03 00:00:00.000 UpdateEmployee DefaultFuncList 102,202,204,205,206,1001,1022 102,202,204,205,206,1001,1022 102,202,204,205,206,1001,1022 102,202,204,205,206,1001,1022 新職稱到職基本功能
+
+164 Afforest 127.0.0.1       2014-04-03 00:00:00.000 UpdateEmployee ManagerDefaultFuncList 203,207,1014 203,207,1014 203,207,1014 203,207,1014 主管基本功能
+
+97 picteam 127.0.0.1 2024-03-21 15:14:00.000 Login LoginCodeActive N Y Y Y 登入時是否啟用驗證碼 ，Y:啟用 N:停用
+
+860 Afforest 127.0.0.1 2026-02-24 05:34:06.442 Worktype ExtraWtid_區顧問 00111,00112,00113,00122,00115,00116,00117 00142,00143,00144,00149 00142,00143,00144,00149 00142,00143,00144,00149 區顧問額外開放班別
+
+892 system system 2026-02-26 07:33:07.881 SetArrange NotSetIdentityChange 10244563 10244563 10244563 10244563 每日排班身分轉換忽略員工編號
+
+595 Afforest 127.0.0.1 2025-09-24 15:44:33.612 Worktype ExtraWtid 00111,00112,00113,00121,00142,00143,00144 00142,00143,00144,00149 00142,00143,00144,00149 00142,00143,00144,00149 區經理額外開放班別
+
+893 system system 2026-02-26 07:33:20.950 Worktype New_ExtraWtid 00142,00143,00144,00149 00142,00143,00144,00149 00142,00143,00144,00149 00142,00143,00144,00149 區經理額外開放班別20260301
+
+894 system system 2026-02-26 07:33:20.955 Worktype New_ExtraWtid_區顧問 00142,00143,00144,00149 00142,00143,00144,00149 00142,00143,00144,00149 00142,00143,00144,00149 區顧問額外開放班別20260301
+
+99 picteam 127.0.0.1 2024-03-28 13:06:08.184 Login ShowOTP Y N N N OTP是否顯示在UI(測試用)
+
+565 Afforest 127.0.0.1 2025-10-08 06:55:57.298 Login IsUserLoginWithAccount Y N N N 一般使用者是否可用帳號密碼登入 
